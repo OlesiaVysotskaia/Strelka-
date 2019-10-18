@@ -1,1 +1,73 @@
-@@import "styles.css";
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Cousine:400,400i,700,700i&display=swap&subset=cyrillic');
+
+:root {
+   --blue: #006AFF;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+Секция .hero
+ */
+
+.hero {
+  height: 90vh;
+
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+
+  text-align: center;
+}
+
+.hero nav {
+background: var(--blue);
+display: inline-block;
+font-family: 'Cousine';
+margin-top: 20px;
+}
+
+nav ul li {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.hero a {
+ color: #fff;
+
+ text-decoration: none;
+}
+
+.hero nav ul li {
+  display: inline-block;
+
+}
+
+h1 {
+  font-size: 110px;
+  font-family: 'Cousine';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  letter-spacing: 0.5px;
+}
+
+.hero .btn {
+  background: var(--blue);
+  font-size: 26px;
+  font-family: 'Cousine';
+  padding: 5px 10px;
+  letter-spacing: 1px;
+
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
