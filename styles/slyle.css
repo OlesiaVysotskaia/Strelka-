@@ -71,3 +71,50 @@ h1 {
   left: 50%;
   transform: translateX(-50%);
 }
+
+/* Секция .edu */
+
+.edu {
+  display: flex;
+  height: 90vh;
+}
+
+
+.post a,
+.research a{
+  font-family: 'Cousine';
+  font-size: 43px;
+  padding: 20px 15px;
+
+  text-decoration: none;
+}
+
+.post a{
+  background-color: #FFF;
+  color: #FF0000;
+  white-space:
+}
+.research a{
+  background-color: #FF0000;
+  color: #fff
+}
+
+.post,
+.research {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  background-image: url(../images/post.jpg);
+}
+
+.research {
+  background-image: url(../images/research.jpg);
+}
